@@ -1,5 +1,5 @@
 
-![Project Image Link]()
+![Project Image Link](https://github.com/tsucess/digital-loader/blob/main/images/digital-bg-image.gif)
 
 
 # AUTHOR:
