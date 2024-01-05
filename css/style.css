@@ -34,16 +34,16 @@ body {
 span, 
 .spinner {
 	position: absolute;
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	/* color: #ffffff; */
 }
 
 span {
 	line-height: 200px;
 	text-align: center;
-	padding-top: 50px;
-	font-size: 18px;
+	/* padding-top: 10px; */
+	font-size: 14px;
 	font-family: 'Gugi', sans-serif;
 	letter-spacing: 1px;
 	color: #ffffff00;
@@ -66,8 +66,8 @@ span {
 .spinner:before {
 	content: " ";
 	position: absolute;
-	width: 240px;
-	height: 240px;
+	width: 160px;
+	height: 160px;
 	margin: 10% 0 0 10%;
 	border-radius: 50%;
 	box-shadow: 2px 0 1px #ffffff,
@@ -85,3 +85,22 @@ span {
 	}
 }
 
+@media screen and (min-width: 768px) {
+	span {
+		padding-top: 50px;
+		font-size: 18px;
+	}
+	.loader,
+	span, 
+	.spinner {
+		width: 300px;
+		height: 300px;
+		/* color: #ffffff; */
+	}
+
+	.spinner:before {
+		width: 240px;
+		height: 240px;
+	}
+
+}
